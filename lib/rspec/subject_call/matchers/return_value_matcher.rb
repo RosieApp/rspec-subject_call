@@ -1,5 +1,5 @@
 require 'rspec/matchers/pretty'
-require 'rspec/matchers/built_in'
+autoload ::RSpec::Matchers::BuiltIn, 'rspec/matchers/built_in'
 
 module RSpec
   module SubjectCall
