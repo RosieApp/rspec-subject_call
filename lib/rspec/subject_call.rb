@@ -1,5 +1,5 @@
-autoload ::RSpec::SubjectCall::Matchers::MeetExpectationsMatcher, 'rspec/subject_call/matchers/meet_expectations_matcher'
-autoload ::RSpec::SubjectCall::Matchers::ReturnValueMatcher,      'rspec/subject_call/matchers/return_value_matcher'
+require 'rspec/subject_call/matchers/meet_expectations_matcher'
+require 'rspec/subject_call/matchers/return_value_matcher'
 
 module RSpec
   module SubjectCall
