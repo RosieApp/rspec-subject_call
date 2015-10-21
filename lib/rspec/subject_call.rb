@@ -1,3 +1,4 @@
+require "rspec/core"
 require 'rspec/subject_call/matchers/meet_expectations_matcher'
 require 'rspec/subject_call/matchers/return_value_matcher'
 
