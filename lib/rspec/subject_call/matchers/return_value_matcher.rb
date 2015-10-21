@@ -1,7 +1,10 @@
 require 'rspec/matchers/pretty'
-autoload ::RSpec::Matchers::BuiltIn, 'rspec/matchers/built_in'
 
 module RSpec
+  module Matchers
+    autoload :BuiltIn, 'rspec/matchers/built_in'
+  end
+
   module SubjectCall
     module Matchers
       class ReturnValueMatcher < RSpec::Matchers::BuiltIn::Eq
